@@ -26,7 +26,7 @@ h1.entry-title.page-title {
 }
 
 .bottom-header-row .main-navigation .menu > li > a:hover {
-  color: #e84a1e !important;
+  color: #ff4300 !important;
 }
 
 /* HERO BILLEDE PÅ PAGE BLOG */
@@ -115,7 +115,7 @@ div.row.main-row {
 h2.titel {
   justify-content: center;
   display: flex;
-  color: #e84a1e;
+  color: #ff4300;
   margin-top: 120px;
 }
 
@@ -189,7 +189,7 @@ img.billede_single {
 /* H1 PÅ SHOP */
 h1.woocommerce-products-header__title.page-title {
   font-size: 48px;
-  color: #e84a1e;
+  color: #ff4300;
   margin: 40px;
 }
 

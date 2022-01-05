@@ -156,7 +156,11 @@ div.tekst {
   padding: 15px;
 }
 
-img.billede:hover {
+/* img.billede:hover {
+  opacity: 0.5;
+} */
+
+article.blog:hover {
   opacity: 0.5;
 }
 

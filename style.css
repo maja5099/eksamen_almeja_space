@@ -170,7 +170,7 @@ article.blog:hover {
 }
 
 button.valgt {
-  color: #f7f1bc;
+  color: #f7f1bc !important;
   border: 2px solid #f7f1bc;
 }
 

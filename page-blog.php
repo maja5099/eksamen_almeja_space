@@ -22,9 +22,9 @@ get_header();
 
 	<template>
   			<article class="blog">
+			  	<img class="billede" src="" alt="">
 				<p class="dato"></p>
 				<h4 class="overskrift"></h4>
-                <img class="billede" src="" alt="">
         	</article>
     </template>
 

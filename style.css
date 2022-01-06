@@ -125,6 +125,10 @@ h3 {
   font-size: 25px;
 }
 
+h3.header {
+  color: red;
+}
+
 h4.overskrift {
   color: #f7f1bc;
   padding-left: 12px;

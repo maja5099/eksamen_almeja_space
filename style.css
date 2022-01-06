@@ -161,6 +161,10 @@ div.tekst {
   padding: 15px;
 }
 
+div.tekst p {
+  margin-bottom: 0;
+}
+
 /* img.billede:hover {
   opacity: 0.5;
 } */

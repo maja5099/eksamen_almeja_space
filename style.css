@@ -119,6 +119,11 @@ h2.titel {
   margin-top: 120px;
 }
 
+h3.header {
+  display: flex;
+  justify-content: center;
+}
+
 h4.overskrift {
   color: #f7f1bc;
   padding-left: 12px;
@@ -164,6 +169,11 @@ article.blog:hover {
   opacity: 0.7;
 }
 
+button.valgt {
+  color: #f7f1bc;
+  border: 2px solid #f7f1bc;
+}
+
 /* STYLING AF SINGLE-VIEW PÅ BLOG */
 article.single_blog {
   display: flex;
@@ -198,11 +208,6 @@ h1.woocommerce-products-header__title.page-title {
 }
 
 button.filter:hover {
-  color: #f7f1bc;
-  border: 2px solid #f7f1bc;
-}
-
-.valgt {
   color: #f7f1bc;
   border: 2px solid #f7f1bc;
 }

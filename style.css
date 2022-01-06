@@ -202,6 +202,11 @@ button.filter:hover {
   border: 2px solid #f7f1bc;
 }
 
+.valgt {
+  color: #f7f1bc;
+  border: 2px solid #f7f1bc;
+}
+
 /* WEB */
 @media (min-width: 1200px) {
   .container,

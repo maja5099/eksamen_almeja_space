@@ -96,7 +96,7 @@ nav#filtrering {
   padding: 15px;
 }
 
-.filtreringsTitel {
+h3.filtreringsTitel {
   display: flex;
   justify-content: center;
   font-size: 25px;

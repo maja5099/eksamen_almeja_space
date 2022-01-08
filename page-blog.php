@@ -38,7 +38,7 @@ get_header();
 		til inspiration til din næste farverige begivenhed eller stylingprojekt.</p>
 	</div>
 
-	<h3>Alle</h3>
+	<h3 class="header">Alle</h3>
 
         <nav id="filtrering">
 			<button data-blog="alle" class="valgt">Alle</button>

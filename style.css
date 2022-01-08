@@ -131,12 +131,6 @@ h4.overskrift {
   padding-right: 12px;
 }
 
-h3 {
-  display: flex;
-  justify-content: left;
-  font-size: 30px;
-}
-
 section.blogcontainer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

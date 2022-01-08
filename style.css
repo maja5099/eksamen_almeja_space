@@ -96,10 +96,10 @@ nav#filtrering {
   padding: 15px;
 }
 
-header {
-  display: flex !important;
-  justify-content: center !important;
-  font-size: 25px !important;
+.filtreringsTitel {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
 }
 
 /* STYLING AF LOOP-VIEW PÅ BLOG */

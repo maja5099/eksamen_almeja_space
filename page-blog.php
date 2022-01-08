@@ -38,7 +38,7 @@ get_header();
 		til inspiration til din næste farverige begivenhed eller stylingprojekt.</p>
 	</div>
 
-	<h3 class="header">Alle</h3>
+	<h3 class="filtreringsTitel">Alle</h3>
 
         <nav id="filtrering">
 			<button data-blog="alle" class="valgt">Alle</button>
@@ -58,7 +58,7 @@ get_header();
 
     const dbUrl = "https://isahilarius.dk/kea/10_eksamensprojekt/almejaspace/wp-json/wp/v2/blog?per_page=100";
 	const catUrl = "https://isahilarius.dk/kea/10_eksamensprojekt/almejaspace/wp-json/wp/v2/categories?slug=arstider,baeredygtighed,bryllup,inspiration";
-	const header = document.querySelector("h3");
+	const filtreringsTitel = document.querySelector("h3");
 
     async function getJson() {
         const data = await fetch(dbUrl);
@@ -92,7 +92,7 @@ get_header();
 		document.querySelector(".valgt").classList.remove("valgt");
         this.classList.add("valgt");
 		visBlogs();
-		header.textContent = this.textContent;
+		filtreringsTitel.textContent = this.textContent;
 	}
 
     function visBlogs() {
